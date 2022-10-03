@@ -1,0 +1,237 @@
+{
+    "categories": [
+        "All",
+        "Drinks",
+        "Salads",
+        "Pasta",
+        "Burgers",
+        "Deserts",
+        "Pizzas"
+    ],
+    "meals": [
+        {
+            "id": 1,
+            "name": "Margherita Pizza",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-1.png",
+            "category": "Pizzas",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Rum with Soda",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-3.png",
+            "category": "Drinks",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Ceaser Salad",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-7.png",
+            "category": "Salads",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Sea Food Pasta",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-8.png",
+            "category": "Pasta",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Chocolate Cookies",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-2.png",
+            "category": "Deserts",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Pepperoni Pizza",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-3.png",
+            "category": "Pizzas",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Bismarck Pizza",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-2.png",
+            "category": "Burgers",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Valdolstana Pizza",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-1.png",
+            "category": "Burgers",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Avocado Juice",
+            "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-05.jpg",
+            "category": "Drinks",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Watermelon Juice",
+            "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-06.jpg",
+            "category": "Drinks",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Orange Juice",
+            "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-01.jpg",
+            "category": "Drinks",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Strawberry Juice",
+            "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-02.jpg",
+            "category": "Drinks",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Oriental Pizza",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-7.png",
+            "category": "Burgers",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Barbecue Pizza",
+            "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-8.png",
+            "category": "Burgers",
+            "current-price": 300,
+            "initial-price": 350,
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+            "reviews": [
+                {
+                    "name": "John Doe",
+                    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+                    "date": "03-10-2022"
+                }
+            ]
+        }
+    ]
+}
