@@ -1,20 +1,21 @@
-import React, { useState, useEffect } from 'react'
-import Categories from './Components/Categories'
-import Menus from './Components/Menus'
-import Title from './Components/Title'
+import React from 'react'
+import { Routes, Route } from 'react-router-dom'
+import Cart from './Components/Cart'
+import Home from './Components/Home'
+import Navbar from './Components/Navbar'
+import Reservation from './Components/Reservation'
 
 function App() {
-  const [myMenu, setMyMenu] = useState([])
-  useEffect(() => {
-    fetch('http://localhost:3000/meals')
-      .then((res) => res.json())
-      .then((data) => setMyMenu(data))
-  }, [])
   return (
     <div className='App'>
-      <Title />
-      <Categories myMenu={myMenu} setMyMenu={setMyMenu} />
-      <Menus myMenu={myMenu} />
+      <Navbar />
+      <Routes>
+        <Route path='/' index element={<Home />} />
+        <Route path='cart' element={<Cart />} />
+        <Route path='reservations' element={<Reservation />} />
+        {/* <Route path='login' element={<Login/>} />
+        <Route path='contact' element={<Contact />} /> */}
+      </Routes>
     </div>
   )
 }
