@@ -14,8 +14,8 @@
             "name": "Margherita Pizza",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-1.png",
             "category": "Pizzas",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -30,8 +30,8 @@
             "name": "Rum with Soda",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-3.png",
             "category": "Drinks",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -46,8 +46,8 @@
             "name": "Ceaser Salad",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-7.png",
             "category": "Salads",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -62,8 +62,8 @@
             "name": "Sea Food Pasta",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-8.png",
             "category": "Pasta",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -78,8 +78,8 @@
             "name": "Chocolate Cookies",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-2.png",
             "category": "Deserts",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -94,8 +94,8 @@
             "name": "Pepperoni Pizza",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-3.png",
             "category": "Pizzas",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -110,8 +110,8 @@
             "name": "Bismarck Pizza",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-2.png",
             "category": "Burgers",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -126,8 +126,8 @@
             "name": "Valdolstana Pizza",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-1.png",
             "category": "Burgers",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -142,8 +142,8 @@
             "name": "Avocado Juice",
             "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-05.jpg",
             "category": "Drinks",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -158,8 +158,8 @@
             "name": "Watermelon Juice",
             "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-06.jpg",
             "category": "Drinks",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -174,8 +174,8 @@
             "name": "Orange Juice",
             "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-01.jpg",
             "category": "Drinks",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -190,8 +190,8 @@
             "name": "Strawberry Juice",
             "image": "https://html.electronthemes.com/foodzone/assets/img/home-v3/ctgry/ci-02.jpg",
             "category": "Drinks",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -206,8 +206,8 @@
             "name": "Oriental Pizza",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-7.png",
             "category": "Burgers",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
@@ -222,8 +222,8 @@
             "name": "Barbecue Pizza",
             "image": "http://themes.templatescoder.com/pizzon/html/demo/1-0/images/menu-8.png",
             "category": "Burgers",
-            "current-price": 300,
-            "initial-price": 350,
+            "current_price": 300,
+            "initial_price": 350,
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
             "reviews": [
                 {
