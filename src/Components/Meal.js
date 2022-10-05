@@ -1,9 +1,15 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Meal = ({ menu }) => {
+  const navigate = useNavigate()
+
+  const handleClick = (menu) => {
+    navigate(`/cart/${menu.id}`)
+  }
   return (
     <>
-      <div className='menu'>
+      <div className='menu' onClick={() => handleClick(menu)}>
         <img src={menu.image} alt='a meal on some plate' />
         <section>
           <h4>{menu.name}</h4>

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Outlet } from 'react-router-dom'
 
 const Cart = () => {
   return (
@@ -6,6 +7,7 @@ const Cart = () => {
       <div className='cart-container'>
         <h2>you are in the cart section</h2>
       </div>
+      <Outlet />
     </>
   )
 }
