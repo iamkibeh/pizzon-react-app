@@ -1,18 +1,21 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { FaCartPlus } from 'react-icons/fa'
 import AddMeal from './AddMeal'
+import useMemoryState from './UseMemoryState'
+import TotalPrice from './TotalPrice'
+
 const MealDescription = () => {
   const params = useParams()
   const menuId = parseInt(params.mealId)
   const [selectedMeal, setSelectedMeal] = useState({})
-  const [submittedMeal, setSubmittedMeal] = useState([])
+  const [submittedMeal, setSubmittedMeal] = useMemoryState('meals', [])
 
   useEffect(() => {
     fetch(`http://localhost:3000/meals/${menuId}`)
       .then((res) => res.json())
       .then((data) => setSelectedMeal(data))
-  }, [])
+  }, [menuId])
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -23,11 +26,14 @@ const MealDescription = () => {
     e.target.reset()
   }
   function handleSizeChange() {
-    // console.log(btnRef.current)
+    // console.log(btnRef.current)IoArrowBackOutline
     // btnRef.current.classList.add('crust-select')
   }
   return (
     <>
+      <div className='total-cost'>
+        <TotalPrice submittedMeal={submittedMeal} />
+      </div>
       <div className='meal-des-container'>
         <div className='menu-image-card'>
           <img src={selectedMeal.image} alt={selectedMeal.name} />
@@ -61,6 +67,7 @@ const MealDescription = () => {
               <label htmlFor='quantity'>Quantity: </label>
               <input
                 type='number'
+                min={1}
                 name='quantity'
                 id='quantity'
                 onBlur={(e) =>
@@ -78,7 +85,10 @@ const MealDescription = () => {
           </section>
         </div>
       </div>
-      <AddMeal submittedMeal={submittedMeal} />
+      <AddMeal
+        submittedMeal={submittedMeal}
+        setSubmittedMeal={setSubmittedMeal}
+      />
     </>
   )
 }

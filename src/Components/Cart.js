@@ -1,11 +1,16 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useNavigate } from 'react-router-dom'
+import { TbArrowBackUp } from 'react-icons/tb'
 
 const Cart = () => {
+  const navigate = useNavigate()
   return (
     <>
       <div className='cart-container'>
-        <h2>you are in the cart section</h2>
+        <button onClick={() => navigate(-1)}>
+          <TbArrowBackUp />
+          Back
+        </button>
       </div>
       <Outlet />
     </>

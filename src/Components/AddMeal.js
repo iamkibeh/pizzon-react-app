@@ -1,7 +1,13 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import { FaTrashAlt, FaAngleLeft } from 'react-icons/fa'
 
-const AddMeal = ({ submittedMeal }) => {
-  console.log(submittedMeal)
+const AddMeal = ({ submittedMeal, setSubmittedMeal }) => {
+  const navigate = useNavigate()
+  function handleDelete(e) {
+    const updatedMeals = submittedMeal.filter((meal) => meal.id !== e.id)
+    setSubmittedMeal(updatedMeals)
+  }
   return (
     <>
       <div className='meals-table'>
@@ -27,14 +33,24 @@ const AddMeal = ({ submittedMeal }) => {
                   <td>{meal.current_price}</td>
                   <td>{meal.quantity ? meal.quantity : 1}</td>
                   <td>
-                    {meal.quantity ? meal.quantity : 1 * meal.current_price}
+                    {meal.quantity
+                      ? meal.quantity * meal.current_price
+                      : 1 * meal.current_price}
                   </td>
-                  <td>Delete</td>
+                  <td className='trash'>
+                    <button onClick={(e) => handleDelete(meal)}>
+                      <FaTrashAlt />
+                    </button>
+                  </td>
                 </tr>
               )
             })}
           </tbody>
         </table>
+        <button className='continue-shopping' onClick={() => navigate('/')}>
+          <FaAngleLeft className='angle-left' />
+          Continue shopping
+        </button>
       </div>
     </>
   )
