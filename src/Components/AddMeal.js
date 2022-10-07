@@ -38,7 +38,10 @@ const AddMeal = ({ submittedMeal, setSubmittedMeal }) => {
                       : 1 * meal.current_price}
                   </td>
                   <td className='trash'>
-                    <button onClick={(e) => handleDelete(meal)}>
+                    <button
+                      className='delete-btn'
+                      onClick={(e) => handleDelete(meal)}
+                    >
                       <FaTrashAlt />
                     </button>
                   </td>

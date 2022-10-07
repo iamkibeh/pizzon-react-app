@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap'); */
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +11,12 @@
   text-align: center;
   margin-bottom: 1.5rem;
 }
-
+.title h2 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.title h1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 .categories {
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   width: fit-content;
@@ -29,7 +35,7 @@
   text-align: center;
 }
 .categories .selected {
-  background-color: orange;
+  background-color: #fd9d3e;
 }
 .categories button:hover {
   outline: 1px solid rgba(255, 165, 0, 0.5);
@@ -83,7 +89,7 @@
   color: #fff;
 }
 .menu section h4 .cost {
-  color: orange;
+  color: #fd9d3e;
 }
 .menu section p {
   font-size: 14px;
@@ -103,7 +109,7 @@
   font-family: 'Pacifico', cursive;
 }
 .navbar h1 span {
-  color: orange;
+  color: #fd9d3e;
 }
 .navbar ul {
   width: fit-content;
@@ -206,7 +212,7 @@
   border-radius: 5px;
 }
 .crust-size .btn-sec button:hover {
-  background-color: orange;
+  background-color: #fd9d3e;
   color: whitesmoke;
   transition: 1.5s ease-in all;
 }
@@ -226,7 +232,7 @@
 }
 .quantity button {
   padding: 0.6rem;
-  background-color: orange;
+  background-color: #fd9d3e;
   color: whitesmoke;
   border: none;
   text-transform: uppercase;
@@ -271,10 +277,10 @@ table tbody tr .trash {
 }
 table tbody tr .trash button {
   padding: 0.5rem 0.8rem;
-  background-color: orange;
+  background-color: #fd9d3e;
   border: none;
 }
-table tbody tr .trash button:hover {
+table tbody tr .trash .delete-btn:hover {
   background-color: red;
   color: #fff;
   transition: 1.5s ease all;
@@ -283,7 +289,7 @@ table tbody tr .trash button:hover {
 .continue-shopping {
   cursor: pointer;
   padding: 0.8rem;
-  background-color: orange;
+  background-color: #fd9d3e;
   color: whitesmoke;
   border: none;
   text-transform: uppercase;
@@ -303,4 +309,269 @@ table tbody tr .trash button:hover {
 .total-cost h3 {
   padding: 0.2rem;
   font-family: 'Pacifico', cursive;
+}
+
+.reservation-cont {
+  background-image: url('./images/pexels-marcus-herzberg-1058277.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+  width: 90%;
+  margin: auto;
+}
+
+.reservation-cont .res-heading {
+  text-align: center;
+  padding: 0.3rem;
+}
+.res-heading h2 {
+  margin-top: 10vh;
+  font-family: 'Pacifico', cursive;
+  /* color: #fd9d3e; */
+  color: white;
+  letter-spacing: 1px;
+}
+.res-heading h1 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.res-form {
+  padding: 2rem;
+}
+.form-display {
+  display: flex;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+.form-display input {
+  width: 48%;
+  padding: 0.6rem;
+  border-radius: 50px;
+  border: 1px solid #e2ebf0;
+  background-color: #e2ebf0;
+}
+.form-display input:focus,
+.comments-display #comments:focus {
+  outline: none;
+  border: 1px solid #fd9d3e;
+}
+
+.comments-display {
+  width: 60%;
+  margin: auto;
+}
+
+#comments {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 50px;
+  border: 1px solid #e2ebf0;
+  margin-bottom: 1rem;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  margin: auto;
+}
+.submit-btn input {
+  cursor: pointer;
+  background-color: #fd9d3e;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 50px;
+  text-transform: uppercase;
+  width: 100%;
+  color: whitesmoke;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1.2rem;
+}
+.submit-btn input:hover {
+  background-color: whitesmoke;
+  color: #fd9d3e;
+  border: 1px solid #fd9d3e;
+  transition: 1.5s ease all;
+}
+
+/* input[type='time']:before {
+  content: 'HH:mm ss';
+  background-color: white;
+  color: black;
+  position: absolute;
+  width: 70px;
+} */
+/* input[type='time']:focus:before {
+  width: 0;
+  content: '';
+} */
+
+/* Login page styling */
+
+.login-container {
+  background-image: url('./images/pexels-mister-mister-3490367.jpg');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 80vh;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-modal {
+  padding: 3rem;
+  width: 33%;
+  background-color: #fff;
+  border-radius: 25px;
+}
+.login-modal h2 {
+  font-family: 'Pacifico', cursive;
+  color: #fd9d3e;
+}
+
+.login-modal .login-input {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.login-modal .login-input label {
+  font-family: 'Pacifico', cursive;
+  display: flex;
+  width: 6rem;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 0.1rem;
+}
+.login-modal .login-input input {
+  background-color: #e2ebf0;
+  width: 80%;
+  padding: 0.6rem;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+}
+.login-modal .login-input input:focus {
+  border: 1px solid #fd9d3e;
+}
+.email-avatar,
+.psd-avatar {
+  position: absolute;
+  right: 0;
+  top: 0.4rem;
+}
+.login-modal button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #fd9d3e;
+  color: white;
+  font-size: 1rem;
+}
+.login-modal p {
+  margin-top: 1rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 14px;
+}
+.login-modal p span {
+  color: #fd9d3e;
+}
+
+.card-container {
+  width: 80%;
+  height: 40vh;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #e2ebf0;
+  position: relative;
+}
+
+.active-slide {
+  height: 100%;
+  width: 30%;
+}
+.slide {
+  display: none;
+}
+.meal-card {
+  display: block;
+  width: 100%;
+  max-height: 100%;
+  border-radius: 15px;
+}
+.prev-slide {
+  position: absolute;
+  top: 50%;
+  font-size: 2.5rem;
+  left: 2rem;
+  user-select: none;
+  cursor: pointer;
+  z-index: 10;
+}
+.next-slide {
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  font-size: 2.5rem;
+  user-select: none;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.about-det {
+  padding: 2rem;
+  margin-right: 2rem;
+}
+.about-det h1 {
+  font-size: 5rem;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.about-det h1 span {
+  color: #fd9d3e;
+}
+.about-det h5 {
+  color: #fd9d3e;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.search-meal {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.search-inp {
+  position: relative;
+}
+.search-inp input {
+  padding: 0.2rem;
+  border-radius: 5px;
+  border: none;
+  margin-left: 0.2rem;
+  background-color: #e2ebf0;
+}
+.search-inp input:focus {
+  outline: 1px solid #fd9d3e;
+  /* border: 1; */
+}
+.search-inp label {
+  font-family: 'Pacifico', cursive;
+  font-weight: 100;
+}
+
+.search-icon {
+  position: absolute;
+  right: 4px;
+  top: 20%;
+  font-size: 0.8rem;
 }
