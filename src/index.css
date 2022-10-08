@@ -101,11 +101,11 @@
 .navbar {
   background-color: green;
   background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-  padding: 1.5rem;
+  padding: 1rem;
   display: flex;
 }
 .navbar h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   font-family: 'Pacifico', cursive;
 }
 .navbar h1 span {
@@ -574,4 +574,46 @@ table tbody tr .trash .delete-btn:hover {
   right: 4px;
   top: 20%;
   font-size: 0.8rem;
+}
+
+.main-footer {
+  background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+  margin-top: 2rem;
+  padding: 2rem;
+}
+.main-footer .top-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mini-footer {
+  padding: 0.5rem;
+}
+.mini-footer h2 {
+  text-transform: uppercase;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 1rem;
+}
+.mini-footer ul {
+  list-style: none;
+}
+.mini-footer ul li {
+  padding-top: 0.6rem;
+  display: flex;
+}
+.mini-footer ul li .home-icon {
+  margin-right: 0.4rem;
+  color: #fd9d3e;
+}
+.social-accounts {
+  padding: 1rem 3.5rem;
+  margin-left: 4.5rem;
+}
+.social-accounts .tweet-icon {
+  margin-right: 1rem;
+}
+.social-accounts .tweet-icon:hover {
+  color: #fd9d3e;
+  transform: scale(1.2);
+  transition: 1.5s ease-in-out all;
 }

@@ -6,6 +6,7 @@ import MealDescription from './Components/MealDescription'
 import Navbar from './Components/Navbar'
 import Reservation from './Components/Reservation'
 import Login from './Components/Login'
+import Footer from './Components/Footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='login' element={<Login />} />
         {/* <Route path='contact' element={<Contact />} /> */}
       </Routes>
+      <Footer />
     </div>
   )
 }
