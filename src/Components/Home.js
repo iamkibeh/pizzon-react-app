@@ -19,6 +19,7 @@ const Home = () => {
       <SearchMeal myMenu={myMenu} setMyMenu={setMyMenu} />
       <Categories myMenu={myMenu} setMyMenu={setMyMenu} />
       <Menus myMenu={myMenu} />
+      <Reviews />
     </>
   )
 }
