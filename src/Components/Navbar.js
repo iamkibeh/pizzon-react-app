@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>
           <NavLink to={'/cart'}>
             <FaCartPlus className='cart' />
-            Add to Cart
+            Cart
           </NavLink>
         </li>
         <li>

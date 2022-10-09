@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import { TbArrowBackUp } from 'react-icons/tb'
+import Reviews from './Reviews'
 
 const Cart = () => {
   const navigate = useNavigate()
@@ -12,6 +13,7 @@ const Cart = () => {
           Back
         </button>
       </div>
+      <Reviews />
       <Outlet />
     </>
   )

@@ -4,6 +4,7 @@ import Title from './Title'
 import Categories from './Categories'
 import SlideShowing from './SlideShowing'
 import SearchMeal from './SearchMeal'
+import Reviews from './Reviews'
 
 const Home = () => {
   const [myMenu, setMyMenu] = useState([])

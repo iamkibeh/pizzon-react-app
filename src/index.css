@@ -55,7 +55,6 @@
 }
 
 .menu {
-  /* background-color: aqua; */
   cursor: pointer;
   padding: 1rem;
   text-align: center;
@@ -70,17 +69,12 @@
 }
 .menu:hover > img {
   padding: 0.8rem;
-  border: 1px solid grey;
   opacity: 0.7;
-  transition: all ease 2s;
-  /* animation-duration: 2s;
-  animation-fill-mode: backwards;
-  animation-timing-function: ease-in-out; */
+  animation: fadeInTop 3s both;
 }
 .menu section {
   text-align: center;
   margin-top: 1.2rem;
-  /* padding: 0.2rem; */
 }
 .menu section h4 {
   font-size: 18px;
@@ -127,6 +121,7 @@
   text-decoration: none;
   color: black;
   text-transform: uppercase;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 .navbar ul li:hover,
 .navbar ul li:hover > a {
@@ -155,7 +150,9 @@
 .cart-container {
   padding: 1rem;
 }
-
+.cart-container button {
+  padding: 0.2rem;
+}
 .meal-des-container {
   width: 90%;
   margin: auto;
@@ -248,7 +245,6 @@
 }
 
 .meals-table table {
-  /* background-color: #989898; */
   border-collapse: collapse;
 }
 
@@ -328,7 +324,6 @@ table tbody tr .trash .delete-btn:hover {
 .res-heading h2 {
   margin-top: 10vh;
   font-family: 'Pacifico', cursive;
-  /* color: #fd9d3e; */
   color: white;
   letter-spacing: 1px;
 }
@@ -400,17 +395,17 @@ table tbody tr .trash .delete-btn:hover {
   transition: 1.5s ease all;
 }
 
-/* input[type='time']:before {
+input[type='time']:before {
   content: 'HH:mm ss';
   background-color: white;
   color: black;
   position: absolute;
   width: 70px;
-} */
-/* input[type='time']:focus:before {
+}
+input[type='time']:focus:before {
   width: 0;
   content: '';
-} */
+}
 
 /* Login page styling */
 

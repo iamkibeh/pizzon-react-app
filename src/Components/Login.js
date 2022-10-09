@@ -9,6 +9,9 @@ const Login = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
+    alert(
+      "Your reservation has been booked. W'eel reach out to you via email. Thankyou!"
+    )
     navigate('/')
   }
   return (
