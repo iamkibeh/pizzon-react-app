@@ -617,3 +617,114 @@ table tbody tr .trash .delete-btn:hover {
   transform: scale(1.2);
   transition: 1.5s ease-in-out all;
 }
+
+.customer-reviews {
+  width: 75%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+.customer-reviews h2 {
+  font-family: 'Pacifico', cursive;
+  color: #fd9d3e;
+  text-align: center;
+}
+.customer-reviews h1 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+}
+.customer-review-card {
+  padding: 1rem;
+}
+.active-review {
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+}
+.not-active-review {
+  display: none;
+}
+.active-review img {
+  height: 10vh;
+  width: 6vw;
+  border-radius: 50%;
+  border: 3px solid #fd9d3e;
+  animation: fadeInTop 2s both;
+}
+@keyframes fadeInTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem);
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.active-review .card-div {
+  padding: 1rem;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5rem;
+  align-items: center;
+}
+.active-review .card-div p {
+  color: #fd9d3e;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  animation: fadeInLeft 2s both;
+}
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-4rem);
+  }
+  50% {
+    opacity: 0.5;
+    color: orange;
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.active-review .comment-sec {
+  background-color: #e2ebf0;
+  padding: 1rem 1rem;
+  width: 60%;
+  min-height: 15vh;
+  animation: fadeInBottom 2s both;
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(15vh);
+  }
+  50% {
+    opacity: 0.5;
+    background-color: black;
+    color: white;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.active-review .comment-sec p {
+  padding: 0.2rem;
+}
+.active-review .comment-sec .my-date {
+  display: grid;
+  font-family: 'Pacifico', cursive;
+  font-size: 10px;
+}
+.active-review .comment-sec .my-date span {
+  font-weight: bold;
+}
