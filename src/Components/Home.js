@@ -9,7 +9,7 @@ import Reviews from './Reviews'
 const Home = () => {
   const [myMenu, setMyMenu] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3000/meals')
+    fetch('https://my-backend-json.herokuapp.com/meals')
       .then((res) => res.json())
       .then((data) => setMyMenu(data))
   }, [])

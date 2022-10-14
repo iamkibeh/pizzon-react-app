@@ -13,7 +13,7 @@ const MealDescription = () => {
   const location = useLocation().pathname
 
   useEffect(() => {
-    fetch(`http://localhost:3000/meals/${menuId}`)
+    fetch(`https://my-backend-json.herokuapp.com/meals/${menuId}`)
       .then((res) => res.json())
       .then((data) => setSelectedMeal(data))
   }, [menuId])

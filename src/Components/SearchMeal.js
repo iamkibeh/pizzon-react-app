@@ -4,7 +4,7 @@ import { BsSearch } from 'react-icons/bs'
 const SearchMeal = ({ myMenu, setMyMenu }) => {
   const [searchMeal, setSearchMeal] = useState([])
   useEffect(() => {
-    fetch('http://localhost:3000/meals')
+    fetch('https://my-backend-json.herokuapp.com/meals')
       .then((res) => res.json())
       .then((data) => setSearchMeal(data))
   }, [myMenu])

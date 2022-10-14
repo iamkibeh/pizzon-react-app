@@ -5,13 +5,13 @@ const Categories = ({ myMenu, setMyMenu }) => {
   const [myFilteredMenus, setMyFilteredMenus] = useState([])
   const [selectedCategory, setSelectedCategory] = useState('All')
   useEffect(() => {
-    fetch('http://localhost:3000/categories')
+    fetch('https://my-backend-json.herokuapp.com/categories')
       .then((res) => res.json())
       .then((data) => setMyCategories(data))
   }, [])
 
   useEffect(() => {
-    fetch('http://localhost:3000/meals')
+    fetch('https://my-backend-json.herokuapp.com/meals')
       .then((res) => res.json())
       .then((data) => setMyFilteredMenus(data))
   }, [])
